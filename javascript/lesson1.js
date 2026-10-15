@@ -8,3 +8,6 @@ console.log("first"); //console.log() prints a value to the console.
 | `()`      | Holds the argument passed to the method |
 | `;`       | Marks the end of the statement; JavaScript can also insert semicolons automatically in many situations |
 */
+console.log("Backend");
+console.log("Development");
+console.log(10 + 20);
