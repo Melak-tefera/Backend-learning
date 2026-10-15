@@ -11,3 +11,4 @@ console.log("first"); //console.log() prints a value to the console.
 console.log("Backend");
 console.log("Development");
 console.log(10 + 20);
+// npm is the package manager commonly used to install and manage JavaScript dependencies.
