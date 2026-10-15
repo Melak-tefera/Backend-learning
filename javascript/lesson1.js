@@ -1,1 +1,10 @@
 console.log("first"); //console.log() prints a value to the console.
+/* 
+| Part      |        Meaning |
+|-----------|----------------|
+| `console` | An object that provides console-related functionality |
+| `.log`    | A method used to output information |
+| `"Hello"` | A string containing text |
+| `()`      | Holds the argument passed to the method |
+| `;`       | Marks the end of the statement; JavaScript can also insert semicolons automatically in many situations |
+*/
