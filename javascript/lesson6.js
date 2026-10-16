@@ -53,3 +53,23 @@ rr.question("Enter the price: ", (priceInput) => {
         rr.close();
     });
 });
+
+//...............................
+/* 
+     What does return do here?
+return ends the current function immediately.
+function checkAge(age) {
+  if (age < 18) {
+    console.log("Too young.");
+    return;
+  }
+  console.log("You may continue.");
+}
+checkAge(15);
+
+Output:
+Too young.
+
+The final console.log() never runs for age 15.
+Remember: return exits the function, not merely the if statement.
+ */
