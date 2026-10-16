@@ -58,9 +58,25 @@ const scores = [
   [60, 85, 95],
   [70, 88, 92]
 ];
+let tt=0;
 
 for (let row = 0; row < scores.length; row++) {
   for (let column = 0; column < scores[row].length; column++) {
     console.log(scores[row][column]);
+    tt += scores[row][column];
+    console.log(tt);
+
   }
 }
+
+/*
+Let's break down the important expressions:
+Expression	          Meaning
+scores.length	      Number of rows
+scores[row]	          The current row array
+scores[row].length	  Number of elements in the current row
+scores[row][column]	  The value at a specific row and column
+
+Why use scores[row].length instead of a fixed number like 3? Because rows may contain different numbers of elements. Reading the actual row length makes the code more flexible.
+*/
+
