@@ -28,10 +28,10 @@ for (let i = 0; i < products.length; i++) {
  .name accesses its name property.
 */
 
-let total = 0;
+let total1 = 0;
 
 for (let i = 0; i < products.length; i++) {
-  total += products[i].price;
+  total1 += products[i].price;
 }
 
 console.log(total); // 9700
